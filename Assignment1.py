@@ -146,7 +146,7 @@ def answer_six():
 # ### Question 7
 # Using your knn classifier, predict the class labels for the test set `X_test`.
 # 
-# *This function should return a numpy array with shape `(143,)` and values either `0.0` or `1.0`.*
+# **This function should return a numpy array with shape `(143,)` and values either `0.0` or `1.0`.**
 
 def answer_seven():
     X_train, X_test, y_train, y_test = answer_four()
@@ -159,7 +159,7 @@ def answer_seven():
 
 # ### Question 8
 # Find the score (mean accuracy) of your knn classifier using `X_test` and `y_test`.
-# 
+#
 # *This function should return a float between 0 and 1*
 
 def answer_eight():

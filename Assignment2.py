@@ -25,7 +25,7 @@ X_train, X_test, y_train, y_test = train_test_split(x, y, random_state=0)
 # The figure above shows the fitted models plotted on top of the original data (using `plot_one()`).
 # 
 # <br>
-# *This function should return a numpy array with shape `(4, 100)`*
+# **This function should return a numpy array with shape `(4, 100)`**
 
 def answer_one():
     array = np.zeros((4, 100), dtype='float64')
