@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import roc_auc_score
 
 
 # ## Assignment 4 - Understanding and Predicting Property Maintenance Fines
